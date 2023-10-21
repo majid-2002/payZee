@@ -73,7 +73,7 @@ function Employee() {
                     const date = new Date(transaction.time * 1000); // Multiply by 1000 to convert to milliseconds
                     return (
                       <div className="tr_card" key={index}>
-                        <div className="tr_amount">{etherValue} matic</div>
+                        <div className="tr_amount">{etherValue} avax</div>
                         <div className="trtime">
                           {date.getDate()}/{date.getMonth() + 1}/
                           {date.getFullYear()} {date.getHours()}:
